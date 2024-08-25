@@ -1,0 +1,459 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>Install Windows - AstroOS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#install-windows" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AstroOS" class="md-header__button md-logo" aria-label="AstroOS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AstroOS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Install Windows
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AstroOS" class="md-nav__button md-logo" aria-label="AstroOS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    AstroOS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-for-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing for Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-bootable-usb-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Bootable USB Drive
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a Bootable USB Drive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-rufus-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using Rufus (Windows)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-balena-etcher-windowsmaclinux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using Balena Etcher (Windows/Mac/Linux)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-windows-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing Windows 11
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-oobe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows OOBE
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="install-windows">Install Windows</h1>
+<p>Welcome to the Windows Installation guide. AstroOS currently supports only Windows 11.</p>
+<h3 id="system-requirements">System Requirements</h3>
+<p>Before you start, ensure your system meets the following minimum requirements:</p>
+<ul>
+<li><strong>Processor</strong>: 1 GHz or faster with at least two cores on a compatible 64-bit processor.</li>
+<li><strong>RAM</strong>: 4 GB or more.</li>
+<li><strong>Storage</strong>: 64 GB or larger storage device.</li>
+<li><strong>Graphics</strong>: DirectX 12 compatible graphics / WDDM 2.x.</li>
+<li><strong>Display</strong>: &gt;9” with HD Resolution (720p).</li>
+<li><strong>Internet Connection</strong>: Internet connectivity is necessary to perform updates and download and take advantage of some features.</li>
+</ul>
+<h3 id="preparing-for-installation">Preparing for Installation</h3>
+<ol>
+<li><strong>Backup Your Data</strong>: Ensure all important data is backed up to an external drive or cloud storage.</li>
+<li><strong>Download Windows 11 ISO</strong>: Obtain the latest version of the Windows 11 ISO file from <a href="https://www.microsoft.com/software-download/windows11">here</a>.</li>
+</ol>
+<h3 id="creating-a-bootable-usb-drive">Creating a Bootable USB Drive</h3>
+<p>To install Windows 11, you need to create a bootable USB drive. Follow these steps:</p>
+<h4 id="using-rufus-windows">Using Rufus (Windows)</h4>
+<ol>
+<li>Download and install <a href="https://rufus.ie/">Rufus</a>.</li>
+<li>Insert a USB drive (8 GB or larger) into your computer.</li>
+<li>Open Rufus.</li>
+<li>Under <strong>Device</strong>, select your USB drive.</li>
+<li>Click <strong>Select</strong> and browse to the location of the downloaded Windows 11 ISO file.</li>
+<li>Ensure the following settings:</li>
+<li><strong>Partition scheme</strong>: GPT</li>
+<li><strong>Target system</strong>: UEFI (non-CSM)</li>
+<li>Click <strong>Start</strong> and wait for the process to complete.</li>
+</ol>
+<h4 id="using-balena-etcher-windowsmaclinux">Using Balena Etcher (Windows/Mac/Linux)</h4>
+<ol>
+<li>Download and install <a href="https://www.balena.io/etcher/">Balena Etcher</a>.</li>
+<li>Insert a USB drive (8 GB or larger) into your computer.</li>
+<li>Open Balena Etcher.</li>
+<li>Click <strong>Flash from file</strong> and select the Windows 11 ISO file.</li>
+<li>Select the USB drive.</li>
+<li>Click <strong>Flash</strong> and wait for the process to complete.</li>
+</ol>
+<h3 id="installing-windows-11">Installing Windows 11</h3>
+<ol>
+<li><strong>Insert Bootable USB Drive</strong>: Insert the bootable USB drive into the target computer.</li>
+<li><strong>Boot from USB</strong>:</li>
+<li>Restart your computer.</li>
+<li>Enter the BIOS/UEFI settings (usually by pressing a key such as F2, F12, Delete, or Esc during startup).</li>
+<li>Change the boot order to prioritize the USB drive.</li>
+<li><strong>Begin Installation</strong>:</li>
+<li>Save the BIOS/UEFI settings and restart.</li>
+<li>The computer should boot from the USB drive and display the Windows 11 installation screen.</li>
+<li><strong>Follow On-Screen Instructions</strong>:</li>
+<li>Select your language, time, and keyboard preferences, then click <strong>Next</strong>.</li>
+<li>Click <strong>Install Now</strong>.</li>
+<li>Enter your product key or choose to enter it later.</li>
+<li>Accept the license terms and click <strong>Next</strong>.</li>
+<li>Choose <strong>Custom Install</strong>.</li>
+<li>Select the partition where you want to install Windows 11. You can delete existing partitions to create new ones if necessary. Click <strong>Next</strong>.</li>
+<li><strong>Installation Process</strong>: The installation process will begin. This may take some time. Your computer may restart several times.</li>
+</ol>
+<h3 id="windows-oobe">Windows OOBE</h3>
+<p>When the installation finishes you need to complete an another setup called OOBE.</p>
+<ol>
+<li><strong>Bypass Network</strong></li>
+<li>Disconnect your computer from the Internet.</li>
+<li>Press <code>Shift + F10</code> to open Command Prompt.</li>
+<li>Type <code>oobe\bypassnro</code> and click enter.</li>
+<li>
+<p>Your PC will restart.</p>
+</li>
+<li>
+<p><strong>Finish the setup</strong></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+    
+  </body>
+</html>
